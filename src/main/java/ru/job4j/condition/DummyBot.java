@@ -5,10 +5,8 @@ public class DummyBot {
     public static String answer(String question) {
         String result = "I don't know. Please, ask another question.";
         if ("Hi, Bot.".equals(question)) {
-            /* заменить ... на правильный ответ result = "ответ по заданию". */
             result = "Hi, SmartAss.";
-        } else if ("Bye.".equals(question)) { /* заменить ... на проверку, известен ли боту этот вопрос и он знает как на него ответить. */
-            /* заменить ... на правильный ответ result = "ответ по заданию". */
+        } else if ("Bye.".equals(question)) {
             result = "See you later.";
         }
         return result;
