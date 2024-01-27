@@ -27,13 +27,13 @@ public class SwitchWeek {
                 name = "Воскресение";
                 break;
             default:
-                return "Ошибка!";
+                name = "Ошибка!";
         }
         return name;
     }
 
     public static void main(String[] args) {
-        String s = nameOfDay(8);
+        String s = nameOfDay(-1);
         System.out.println(s);
     }
 }
