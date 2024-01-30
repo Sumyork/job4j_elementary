@@ -19,7 +19,6 @@ public class AlgoArray {
             stringBuilder.append(number);
             stringBuilder.append(", ");
         }
-
         System.out.println(stringBuilder
                 .deleteCharAt(stringBuilder.length() - 2));
     }
